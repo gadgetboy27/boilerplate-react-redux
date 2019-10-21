@@ -5,8 +5,14 @@ import AddWord from './AddWord'
 
 const App = () => (
   <div className='app-container'>
-    <Words />
-    <AddWord />
+    <div className="row">
+      <div className="col-sm">
+        <div className="div-box">
+          <Words />
+          <AddWord />
+        </div>
+      </div>
+    </div>
   </div>
 )
 
